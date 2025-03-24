@@ -1,0 +1,123 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* HEADER - NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e9a256;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.member {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.member h3 {
+    color: #000000;
+    margin: 10px 0;
+}
+
+.member p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.idea {
+    background-color: #e9a256;
+    padding: 40px;
+    text-align: center;
+}
+
+.idea h2 {
+    color: #000000;
+}
+
+.idea p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .download, .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
